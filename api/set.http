@@ -1,0 +1,8 @@
+# Set Text Endpoint
+POST http://localhost:3000/setText
+Content-Type: application/json
+
+{
+  "text": "Hello, Blockchain!"
+}
+

@@ -1,0 +1,2 @@
+# Get Text Endpoint
+GET http://localhost:3000/getText
