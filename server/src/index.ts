@@ -6,7 +6,7 @@ import Web3 from "web3";
 import { abi } from "../../build/contracts/SimpleStorage.json";
 
 const app = express();
-const port = 3000;
+const port = 3005;
 
 const web3 = new Web3(process.env.RPC_SERVER!); // Connect to Ganache
 

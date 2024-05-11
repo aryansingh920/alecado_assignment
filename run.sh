@@ -14,6 +14,6 @@ cd server
 echo "Writing contract address to .env file"
 
 echo "RPC_SERVER=http://localhost:7545" > .env
-echo "CONTRACT_ADDRESS=$contract_address" > .env
+echo "CONTRACT_ADDRESS=$contract_address" >> .env
 echo "Starting server"
 npm start
