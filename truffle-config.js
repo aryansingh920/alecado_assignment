@@ -1,9 +1,9 @@
 module.exports = {
   networks: {
     development: {
-      host: "192.168.110.1", // Update to your Ganache host
-      port: 7545,
-      network_id: "5777",
+      host: "127.0.0.1", // Update to your Ganache host
+      port: 8545,
+      network_id: "*",
       gas: 6721975,
       gasPrice: 20000000000,
     },
