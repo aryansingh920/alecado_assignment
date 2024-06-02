@@ -1,5 +1,5 @@
-const SimpleStorage = artifacts.require("SimpleStorage");
+const NFTContract = artifacts.require("NFTContract");
 
 module.exports = function (deployer) {
-  deployer.deploy(SimpleStorage, { gas: 6000000, gasPrice: 20000000000 });
+  deployer.deploy(NFTContract);
 };

@@ -126,11 +126,13 @@ function App() {
         <input type="file" onChange={handleFileChange} />
         <button onClick={uploadFile}>Upload & Sign File</button>
       </div>
+      <hr />
       {message && <p>{message}</p>}
       <div>
         <button onClick={getFileInformation}>Get File Information & Signature</button>
         <button onClick={signFile}>Sign File</button>
         <button onClick={checkSignature}>Check Signature</button>
+        <hr />
       </div>
       <div>
         <h3>File Information</h3>

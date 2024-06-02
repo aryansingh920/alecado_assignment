@@ -15,6 +15,6 @@ echo "Writing contract address to .env file"
 
 echo "RPC_SERVER=http://127.0.0.1:8545" > .env
 echo "CONTRACT_ADDRESS=$contract_address" >> .env
-echo "PRIVATE_KEY=0x2a4e33bfa217b73d69d526eaa9268c831eda429223fe8deda4cf9c106788d73f" >> .env
+echo "PRIVATE_KEY=0xe11f60dc7e32291b1e9123828a47b454d7affb01e3135888e3bf1dcc77e1d5af" >> .env
 echo "Starting server"
 npm start
